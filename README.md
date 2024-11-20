@@ -1,9 +1,9 @@
 # Projeto Integrador Transdisciplinar em Engenharia de Software II - Cakemania
 
-## Documentação atualizada do PIT I para o Tutor:
-[Documentação Atualizada](https://docs.google.com/document/d/13afiliTYM_gqmr_2N397unevMdqkVjIT/edit?usp=sharing&ouid=104057225532776075855&rtpof=true&sd=true)
-
 Cakemania é um projeto de loja online de cupcakes desenvolvido para demonstrar uma aplicação full-stack usando tecnologias modernas. Este projeto inclui um banco de dados PostgreSQL, uma API backend construída com Flask e um frontend criado com React.
+
+### Documentação atualizada do PIT I para o Tutor:
+[Documentação Atualizada](https://docs.google.com/document/d/13afiliTYM_gqmr_2N397unevMdqkVjIT/edit?usp=sharing&ouid=104057225532776075855&rtpof=true&sd=true)
 
 ## Tecnologias Utilizadas
 
