@@ -21,6 +21,9 @@ class Product(db.Model):
     stock = db.Column(db.Integer)
     createdat = db.Column(db.DateTime)
     updatedat = db.Column(db.DateTime)
+    adminid = db.Column(db.Integer, db.ForeignKey('admins.adminid'), nullable=False)  # Associa o produto ao administrador
+
+    admin = db.relationship('Admin', backref=db.backref('products', lazy=True))
 
 class Order(db.Model):
     __tablename__ = 'orders'
