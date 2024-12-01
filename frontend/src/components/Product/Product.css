@@ -1,0 +1,30 @@
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .product h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .product p {
+    margin: 5px 0;
+    text-align: center;
+  }
