@@ -70,33 +70,13 @@ Cakemania é um projeto de loja online de cupcakes desenvolvido para demonstrar 
 
 1. **Instalar Node.js**: Certifique-se de ter o Node.js instalado. Você pode baixá-lo do [site oficial](https://nodejs.org/).
 
-2. **Criar o React App**:
+2. **Instalar as dependências do projeto:**:
     ```sh
-    npx create-react-app cakemania-frontend
     cd cakemania-frontend
+    npm install
     ```
 
-3. **Configurar as Chamadas de API**: Atualize seus componentes React para fazer chamadas à API do servidor backend, substituindo a rota do fetch no `App.js`:
-    ```jsx
-      useEffect(() => {
-        const fetchProducts = async () => {
-          try {
-            const response = await fetch('sua-rota-aqui');
-            if (!response.ok) {
-              throw new Error('Network response was not ok');
-            }
-            const data = await response.json();
-            setProducts(data);
-          } catch (error) {
-            console.error('Failed to fetch products:', error);
-          }
-        };
-
-        fetchProducts();
-      }, []);
-    ```
-
-4. **Executar o Servidor Frontend**:
+3. **Executar o Servidor Frontend**:
     ```sh
     npm start
     ```
