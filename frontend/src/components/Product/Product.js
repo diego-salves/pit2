@@ -1,14 +1,13 @@
-// src/components/Product/Product.js
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Product.css';
+import cupcake from './cupcake.png';
 
 function Product({ product }) {
-  const imageUrl = 'https://example.com/default_image.jpg'; // URL de imagem padrão
 
   return (
     <div className="product">
-      <img src={imageUrl} alt={product.name} />
+      <img src={cupcake} alt={product.name} />
       <h3>{product.name}</h3>
       <p>{product.description}</p>
       <p>${product.price.toFixed(2)}</p>

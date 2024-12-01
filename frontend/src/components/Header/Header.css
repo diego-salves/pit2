@@ -1,5 +1,23 @@
 .App-header {
-    background-color: #282c34;
+    background-color: #ff69b4;
     padding: 20px;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .App-header img {
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .App-header h1 {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .App-header p {
+    margin: 10px 0 0;
   }
